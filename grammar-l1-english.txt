@@ -1,0 +1,10 @@
+Terminals:
+that this a book flight meal money book include prefer I she me Houston NWA does from to on near through
+Variables:
+S NP VP Aux Pronoun Proper-Noun Det Nominal Noun PP Verb Preposition
+Productions:
+S -> NP VP | Aux NP VP | VP;
+NP -> Pronoun | Proper-Noun | Det Nominal;
+Nominal -> Noun | Nominal Noun | Nominal PP;
+VP -> Verb | Verb NP | Verb NP PP | Verb PP | VP PP;
+PP -> Proposition NP
